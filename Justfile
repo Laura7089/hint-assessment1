@@ -3,6 +3,8 @@
 TECTONIC := "tectonic -X"
 DIAGS := "tsn_gsn tsn_fta"
 
+WATCH_ARGS := "--on-busy-update restart"
+
 build *args="": exam_number diagrams
     {{TECTONIC}} build {{ args }}
 
@@ -13,7 +15,7 @@ diagrams:
     done
 
 watch *args="":
-    pueue add watchexec -w src just build {{ args }}
+    pueue add watchexec {{ WATCH_ARGS }} -w src just build {{ args }}
 
 exam_number:
     [ -f ./src/exam_number.txt ] || echo "Sample" > ./src/exam_number.txt
