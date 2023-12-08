@@ -1,13 +1,16 @@
 #!/bin/env -S just --justfile
 
 TECTONIC := "tectonic -X"
+DIAGS := "tsn_gsn tsn_fta"
 
-build *args="": exam_number gsn_diag
+build *args="": exam_number diagrams
     {{TECTONIC}} build {{ args }}
 
-gsn_diag:
+diagrams:
     mkdir -pv ./src/graphics
-    drawio -x -o ./src/graphics/tsn_gsn.png ./src/tsn_gsn.drawio
+    for diag in {{ DIAGS }}; do \
+        drawio -x -o ./src/graphics/$diag.png ./src/$diag.drawio; \
+    done
 
 watch *args="":
     pueue add watchexec -w src just build {{ args }}
