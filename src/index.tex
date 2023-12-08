@@ -3,9 +3,6 @@
 
 % Part A: <1 page
 
-% - ethernet organised into frames
-% - provides no guarantees about timing
-% - switches are a common device which alleviates network stress by segmenting the network by which stations are on each "port" of the switch, then routing appropriately (as opposed to all packets going everywhere)
 % - half-duplex ethernet:
 %   - used until the introduction of twisted-pair ethernet in 10BASE-T in 1990
 %   - has non-deterministic transmission time; frames (which are not necessarily directly correlated to a single "message" in a higher-level protocol) can be delayed by network collisions and other effects, the delay is random
@@ -21,7 +18,30 @@
 %
 % create (or steal) diagram depicting typical ethernet architecture - perhaps show full-duplex-compatible vs non?
 
-Ethernet~\cite{IEEEStandardEthernet2022} is a set of systems standardising 2-way device-to-device digital data exchange and communication over physical cabling.
+Ethernet is a set of systems standardising 2-way device-to-device digital data exchange and communication over physical cabling.
+Devices within an Ethernet network are referred to as \textbf{stations}; stations exchange \textbf{frames}: variable-length, self-contained, addressed sequences of bits which are typically single-station-to-single-station (though ``multicast'' modes of operation are available)~\cite{IEEEStandardEthernet2022}\cite{spurgeonEthernetDefinitiveGuide2000}.
+
+The basic Ethernet standard (see \cite{IEEEStandardEthernet2022}) does not provide any mechanism to guarantee delivery of frames, nor the time taken to do so.
+It provides a basic system to allow stations receiving frames to determine whether the contained data has been damaged during transmission to a reasonable accuracy using a checksum algorithm attached to each frame\footnote{ARINC 629 likewise provides a checksum~\cite{dheerajpuniaARINC629Digital2021}, though the guarantee of integrity is weaker owing to the simplicity of the algorithm and the length of the single parity bit.}.
+For the purposes of resource management, only one station may transmit on a network (link) at once since the link is saturated with each frame for the duration of it's transmission and the protocol does not allow any other station to interrupt, which may be desirable to implement prioritisation, for example.
+
+Ethernet offers two methods of operation pertinent to resource management:
+
+\begin{itemize}
+    \item \textbf{Half-Duplex} offers links between devices which are only available to transmit on by a single station at a time.
+        This is managed through a mechanism known as the \textbf{Media Access Control Protocol}, which is embedded in each station's Ethernet controller.
+        Under this system, stations must listen to the link to determine if it is in use, then attempt to transmit their next frame; if two stations try to transmit a frame at the same time, a \textbf{collision} occurs and both devices must ``back off'' and attempt to re-transmit their frame in the same manner a random time offset in the future.
+    \item \textbf{Full-Duplex} offers links between devices which may be both transmitted and received on at the same time.
+        This mode can only be enabled on point-to-point links which have exactly two stations with all hardware being compatible, including cabling.
+        Under this system, the link is split into TX and RX channels which may be utilised simultaneously, eliminating the need to manage collisions and the MAC Protocol.
+        Higher throughput and more predictable timing may be conferred by this, but this is not guaranteed; other sources of nondeterministic time still exist within the system.
+        Furthermore, for networks with many stations, switches (see below) or some other form of routing are required.
+\end{itemize}
+
+In systems with many stations which all need to transmit different data to each other, it may be desirable to add in \textbf{Switches}\footnote{Sometimes referred to as \textbf{Switching Hubs}~\cite{spurgeonEthernetDefinitiveGuide2000}.}.
+These are stations with many connection ports that function as address-aware relays, they automatically segment the network by station residency and only forward frames to segment(s) connected to the addressee.
+A switch may allow more efficient link utilisation, and fewer collisions to occur in Half-Duplex operation.
+They can also allow economic hybridisation of hardware in networks, with higher-throughput links between switches and ``downgraded'' links between switches and non-switch stations as required.
 
 % Part B: ~2 pages
 
