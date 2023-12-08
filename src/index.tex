@@ -4,7 +4,24 @@
 % Part A: <1 page
 
 % - ethernet organised into frames
-% - provides no guarantees about ordering or timing
+% - provides no guarantees about timing
+% - switches are a common device which alleviates network stress by segmenting the network by which stations are on each "port" of the switch, then routing appropriately (as opposed to all packets going everywhere)
+% - half-duplex ethernet:
+%   - used until the introduction of twisted-pair ethernet in 10BASE-T in 1990
+%   - has non-deterministic transmission time; frames (which are not necessarily directly correlated to a single "message" in a higher-level protocol) can be delayed by network collisions and other effects, the delay is random
+%   - switches (which may be desirable for other reasons) may intentionally introduce collisions with noise frames in order to relieve pressure on their internal resources if network traffic is high, adding further indeterminism
+% - full-duplex ethernet:
+%   - there is no contention, so network collisions cannot occur and frame times are (practically) a little more deterministic
+%   - still doesn't offer *guarantees* about frame timing
+%   - other sources of nondeterminism remain, like time on switches and bridges, and processing time for stations
+%   - only works with correct hardware, connected with exactly 2 stations on each "point-to-point" link
+%   - switches on a full-duplex network
+% - link speed, link length, and cost, are essentially a three-way balancing act
+% - if a packet is damaged, detected by the CRC not matching, then ethernet provides no method of guaranteed redelivery; this must be implemented somewhere higher in the OSI stack
+%
+% create (or steal) diagram depicting typical ethernet architecture - perhaps show full-duplex-compatible vs non?
+
+Ethernet~\cite{IEEEStandardEthernet2022} is a set of systems standardising 2-way device-to-device digital data exchange and communication over physical cabling.
 
 % Part B: ~2 pages
 
