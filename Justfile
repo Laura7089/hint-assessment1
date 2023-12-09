@@ -15,7 +15,12 @@ diagrams:
     done
 
 watch *args="":
-    pueue add watchexec {{ WATCH_ARGS }} -w src just build {{ args }}
+    pueue add \
+        watchexec \
+        --project-origin . \
+        {{ WATCH_ARGS }} \
+        -w src \
+        just build {{ args }}
 
 exam_number:
     [ -f ./src/exam_number.txt ] || echo "Sample" > ./src/exam_number.txt
