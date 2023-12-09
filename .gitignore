@@ -1,5 +1,6 @@
 src/exam_number.txt
 src/tsn_gsn.png
 *.bkp
+*.dtmp
 src/graphics
 build
