@@ -48,11 +48,23 @@ They can also allow economic hybridisation of hardware in networks, with higher-
 % - use example situation
 % - use different VLANs for different subsystems, with appropriately assigned priority tags
 %   - choose a mapping from DAL class (A-E in the example) to priority tag (1-8)?
-% - make up an architecture/topology from the example?
+% - assumptions:
+%   - FCS must receive constant data from NS with a guaranteed delivery rate and time
+% - insert command system representing information issued by pilot(s) or autopiloting system
+
+Following the given rubric example, and making the following assumptions about it:
+
+\begin{itemize}
+    \item \textbf{Flight Control System} encompasses the control surfaces and the actuation systems related to them
+    \item \textbf{Power Distribution System} refers to routing of electrical power across the aircraft
+    \item \textbf{Fuel Management System} encompasses fuel tank status data and control for inter-tank fuel transfer and balancing
+\end{itemize}
+
+The \textbf{Command System} is inserted, and defined as the systems that interface with the crew (primarily pilots) of the aircraft and allow them to issue commands to and view the status of other systems; in addition to encompassing ``auto-pilot'' capabilities.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.75\textwidth]{tsn_example}
+\includegraphics[width=0.9\textwidth]{tsn_example}
 \caption{Proposed System Architecture}
 \end{figure}
 
