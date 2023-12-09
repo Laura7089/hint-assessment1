@@ -1,7 +1,7 @@
 #!/bin/env -S just --justfile
 
 TECTONIC := "tectonic -X"
-DIAGS := "tsn_gsn tsn_fta tsn_example"
+DIAGS := "tsn_gsn tsn_fta tsn_example tsn_routing"
 
 WATCH_ARGS := "--on-busy-update restart"
 
