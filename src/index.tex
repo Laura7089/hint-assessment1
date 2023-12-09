@@ -1,19 +1,11 @@
-\section{Question 1}
+\section{Ethernet and Time-Sensitive Networks}
 % ~3.5 pages
 
+\subsection{Ethernet}
 % Part A: <1 page
 
 % - half-duplex ethernet:
 %   - used until the introduction of twisted-pair ethernet in 10BASE-T in 1990
-%   - has non-deterministic transmission time; frames (which are not necessarily directly correlated to a single "message" in a higher-level protocol) can be delayed by network collisions and other effects, the delay is random
-%   - switches (which may be desirable for other reasons) may intentionally introduce collisions with noise frames in order to relieve pressure on their internal resources if network traffic is high, adding further indeterminism
-% - full-duplex ethernet:
-%   - there is no contention, so network collisions cannot occur and frame times are (practically) a little more deterministic
-%   - still doesn't offer *guarantees* about frame timing
-%   - other sources of nondeterminism remain, like time on switches and bridges, and processing time for stations
-%   - only works with correct hardware, connected with exactly 2 stations on each "point-to-point" link
-%   - switches on a full-duplex network
-% - link speed, link length, and cost, are essentially a three-way balancing act
 % - if a packet is damaged, detected by the CRC not matching, then ethernet provides no method of guaranteed redelivery; this must be implemented somewhere higher in the OSI stack
 %
 % create (or steal) diagram depicting typical ethernet architecture - perhaps show full-duplex-compatible vs non?
@@ -23,50 +15,64 @@ Devices within an Ethernet network are referred to as \textbf{stations}; station
 
 The basic Ethernet standard (see \cite{IEEEStandardEthernet2022}) does not provide any mechanism to guarantee delivery of frames, nor the time taken to do so.
 It provides a basic system to allow stations receiving frames to determine whether the contained data has been damaged during transmission to a reasonable accuracy using a checksum algorithm attached to each frame\footnote{ARINC 629 likewise provides a checksum~\cite{dheerajpuniaARINC629Digital2021}, though the guarantee of integrity is weaker owing to the simplicity of the algorithm and the length of the single parity bit.}.
-For the purposes of resource management, only one station may transmit on a network (link) at once since the link is saturated with each frame for the duration of it's transmission and the protocol does not allow any other station to interrupt, which may be desirable to implement prioritisation, for example.
+The protocol does not provide any way for a frame's transmission to be interrupted.
 
 Ethernet offers two methods of operation pertinent to resource management:
 
 \begin{itemize}
-    \item \textbf{Half-Duplex} offers links between devices which are only available to transmit on by a single station at a time.
+    \item \label{def:halfduplex} \textbf{Half-Duplex} offers links between devices which are only available to transmit on by a single station at a time.
         This is managed through a mechanism known as the \textbf{Media Access Control Protocol}, which is embedded in each station's Ethernet controller.
         Under this system, stations must listen to the link to determine if it is in use, then attempt to transmit their next frame; if two stations try to transmit a frame at the same time, a \textbf{collision} occurs and both devices must ``back off'' and attempt to re-transmit their frame in the same manner a random time offset in the future.
-    \item \textbf{Full-Duplex} offers links between devices which may be both transmitted and received on at the same time.
+    \item \label{def:fullduplex} \textbf{Full-Duplex} offers links between devices which may be both transmitted and received on at the same time~\cite{spurgeonFullDuplexEthernet2000}.
         This mode can only be enabled on point-to-point links which have exactly two stations with all hardware being compatible, including cabling.
         Under this system, the link is split into TX and RX channels which may be utilised simultaneously, eliminating the need to manage collisions and the MAC Protocol.
         Higher throughput and more predictable timing may be conferred by this, but this is not guaranteed; other sources of nondeterministic time still exist within the system.
         Furthermore, for networks with many stations, switches (see below) or some other form of routing are required.
 \end{itemize}
 
-In systems with many stations which all need to transmit different data to each other, it may be desirable to add in \textbf{Switches}\footnote{Sometimes referred to as \textbf{Switching Hubs}~\cite{spurgeonEthernetDefinitiveGuide2000}.}.
-These are stations with many connection ports that function as address-aware relays, they automatically segment the network by station residency and only forward frames to segment(s) connected to the addressee.
+In systems with many stations which all need to transmit different data to each other, it may be desirable to add in \textbf{Switches}\footnote{Sometimes referred to as \textbf{Switching Hubs}~\cite{spurgeonEthernetSwitchingHubs2000}.}.
+These are stations with many connection ports that function as address-aware relays: they automatically segment the network by station residency and only forward frames to segment(s) connected to the addressee\cite{spurgeonEthernetDefinitiveGuide2000}.
 A switch may allow more efficient link utilisation, and fewer collisions to occur in Half-Duplex operation.
 They can also allow economic hybridisation of hardware in networks, with higher-throughput links between switches and ``downgraded'' links between switches and non-switch stations as required.
 
+\subsection{Time-Sensitive Networks: Application and Research}
 % Part B: ~2 pages
 
+\subsection{Mixed Criticality System with TSNs}
 % Part C: ~1.5 pages
 
 \section{Question 2}
 % 5 pages
 
+\subsection{Example Fault Tree Analysis}
 % Part A: ~1 page
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.75\textwidth]{tsn_fta}
+\caption{Fault Tree Analysis}
+\end{figure}
+
+\subsection{Explanation}
 % Part B: ~2 pages
 
+\subsection{}
 % Part C: ~2 pages
 
 \section{Question 3}
 % ~3.5 pages
 
+\subsection{Safety Argument}
 % Part A: ~1 page
-
-% Part B: ~1 page
-
-% Part C: ~1 page
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.75\textwidth]{tsn_gsn}
-\caption{GSN Notation}
+\caption{Argument presented with Goal-Structuring-Notation}
 \end{figure}
+
+\subsection{Explanation}
+% Part B: ~1 page
+
+\subsection{Evidence Gathering Techniques}
+% Part C: ~1 page
