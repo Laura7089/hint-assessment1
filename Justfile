@@ -6,7 +6,7 @@ DIAGS := "tsn_gsn tsn_fta tsn_example"
 WATCH_ARGS := "--on-busy-update restart"
 
 build *args="": exam_number diagrams
-    {{TECTONIC}} build {{ args }}
+    {{ TECTONIC }} build {{ args }}
 
 diagrams:
     mkdir -pv ./src/graphics
