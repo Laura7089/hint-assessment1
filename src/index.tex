@@ -45,12 +45,6 @@ They can also allow economic hybridisation of hardware in networks, with higher-
 \subsection{Mixed Criticality System with TSNs}
 % Part C: ~1.5 pages
 
-% - use example situation
-% - use different VLANs for different subsystems, with appropriately assigned priority tags
-%   - choose a mapping from DAL class (A-E in the example) to priority tag (1-8)?
-% - assumptions:
-%   - FCS must receive constant data from NS with a guaranteed delivery rate and time
-
 We use the given example subsystems to illustrate our example of a TSN for an aviation-relevant mixed criticality system.
 
 The \textbf{Command System} is inserted, and defined as the systems that interface with the crew (primarily pilots) of the aircraft and allow them to issue commands to and view the status of other systems; in addition to encompassing ``auto-pilot'' capabilities.
@@ -73,8 +67,7 @@ Time-aware scheduler IEEE 802.1Qbv~\cite{IEEEStandardLocal2018a}\cite{ISOIECIEEE
 To facilitate the correct function of Time-Sensitive Scheduling, at least one independent dedicated PTP grandmaster unit, compliant with the specific PTP subset IEE 802.1AS~\cite{IEEEStandardLocal2020} must exist on the network, with potential for one or more redundant additional units.
 All stations must be able to fully comply with the 802.1Q~\cite{IEEEStandardLocal2018a}, 802.1Qbv~\cite{IEEEStandardLocal2016a} and 802.1AS~\cite{IEEEStandardLocal2020} standards to uphold the guarantees required of the system.
 
-% TODO: X-priority
-Figure~\ref{fig:topology} shows a reference topology for only the X-priority VLAN between the Command, Flight Control, Power Distribution and Engine Control subsystems.
+Figure~\ref{fig:topology} shows a reference topology for only the priority A VLAN between the Command, Flight Control, Power Distribution and Engine Control subsystems.
 For visual simplicity, redundant network links and redundant grandmaster units, among others, are not shown; however, their presence should be expected --- it will be assumed that the shown network is duplicated wholly and independently once, including Ethernet interfaces.
 Such a redundancy requires internal logic on peripherals to avoid duplication of packets, and fault detection of a network should the connection remain but the frames be damaged in some fashion.
 
@@ -84,11 +77,9 @@ Based on the large throughput boost to be expected from even the most modest Eth
 
 Notable examples of this are expected to include the connection between the Navigation System and the Command System needing constant transmission from clocked navigation devices, and the Command System needing guaranteed maximum latency between itself and the ECS/FCS.
 
-% TODO: DAL -> priority tag mapping
-
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.6\textwidth]{tsn_example}
+\includegraphics[width=0.8\textwidth]{tsn_example}
 \caption{VLAN and Priority Groupings}
 \label{fig:vlans}
 \end{figure}
@@ -119,8 +110,16 @@ Notable examples of this are expected to include the connection between the Navi
 
 % assumptions made in fault tree:
 % - fuel pumping system simplified to pump, valve and selectable fuel tank input; cite RR book
-% - mechanical failure ignored
-% -
+% - mechanical failure mostly ignored
+%
+% contributions of communication system to top fault:
+% - broadly can be broken into two fault groupings:
+%   - fault causes corruption or dropping of message issued to a system
+%     - message is damaged to indicate something it should not
+%       - this is not likely
+%     - message is lost or undelivered
+%   - message delivered too late to prevent a fault
+%     - caused by temporal mismanagement
 
 \subsection{}
 % Part C: ~2 pages
