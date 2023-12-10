@@ -60,7 +60,8 @@ We further make the following assumptions:
 \begin{itemize}
     \item All subsystems must interface with the \textbf{Command System} to allow interaction from the crew
     \item \textbf{Flight Control System} encompasses the control surfaces and the actuation systems related to them
-    \item \textbf{Power Distribution System} refers to routing of electrical power across the aircraft
+    \item \textbf{Power Distribution System} refers to routing of electrical power across the aircraft, and that all other subsystems require power delivery and thus communication with the PDS
+    \item \textbf{Engine Control System} encompasses active engine controls such as throttling, shutdown etc. in addition to into-engine fuel pumping
     \item \textbf{Fuel Management System} encompasses fuel tank status data and control for inter-tank fuel transfer and balancing, and must maintain a dedicated connection with the Engine Control System to exchange information about fuel demands and consumption rates
     \item All sub-systems must interface with the \textbf{Power Distribution System} in order to negotiate their power needs
     \item All sub-systems' connections with the Command System and the Power Distribution System inherit the DAL of that subsystem; we consider failures in communication to constitute failure of the system as either or both of loss of control and loss of power will occur
@@ -74,11 +75,16 @@ All stations must be able to fully comply with the 802.1Q~\cite{IEEEStandardLoca
 
 % TODO: X-priority
 Figure~\ref{fig:topology} shows a reference topology for only the X-priority VLAN between the Command, Flight Control, Power Distribution and Engine Control subsystems.
-For visual simplicity, redundant network links, redundant grandmaster units, among others, are not shown; however, their presence should be expected --- it will be assumed that the shown network is duplicated wholly and independently once, including Ethernet interfaces.
+For visual simplicity, redundant network links and redundant grandmaster units, among others, are not shown; however, their presence should be expected --- it will be assumed that the shown network is duplicated wholly and independently once, including Ethernet interfaces.
 Such a redundancy requires internal logic on peripherals to avoid duplication of packets, and fault detection of a network should the connection remain but the frames be damaged in some fashion.
 
+In order to manage temporal resources closely and effectively, the system might configure the 803.1Qbv scheduler to allocate time within network cycles based on the priority of the VLANs within~\cite{IEEEStandardLocal2016a}.
+Once required transmission/reception rates and latencies of subsystems are known (these can be calculated from their expected performance envelopes), this can be combined with additional time extensions based on their DAL class to ensure their respective VLANs are allocated the time they require for correct and safe operation.
+Based on the large throughput boost to be expected from even the most modest Ethernet implementations over ARINC 629, the proposed system should have plenty of temporal resources available for this so long as they are strategically utilised.
+
+Notable examples of this are expected to include the connection between the Navigation System and the Command System needing constant transmission from clocked navigation devices, and the Command System needing guaranteed maximum latency between itself and the ECS/FCS.
+
 % TODO: DAL -> priority tag mapping
-% TODO: table of time analysis of maximum hop time between some sample systems (prioritise DAL A/B)
 
 \begin{figure}[H]
 \centering
@@ -94,20 +100,27 @@ Such a redundancy requires internal logic on peripherals to avoid duplication of
 \label{fig:topology}
 \end{figure}
 
-\section{Question 2}
+% TODO: table of time analysis of maximum hop time between some sample systems (prioritise DAL A/B)
+
+\section{Fault Tree Analysis}
 % 5 pages
 
 \subsection{Example Fault Tree Analysis}
 % Part A: ~1 page
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.75\textwidth]{tsn_fta}
-\caption{Fault Tree Analysis}
+\includegraphics[width=0.85\textwidth]{tsn_fta}
+\caption{Fault Tree Analysis~\cite{w.e.veselyFaultTreeHandbook1981} with Communication faults highlighted in blue, dotted lines are intended to reduce duplication}
 \end{figure}
 
 \subsection{Explanation}
 % Part B: ~2 pages
+
+% assumptions made in fault tree:
+% - fuel pumping system simplified to pump, valve and selectable fuel tank input; cite RR book
+% - mechanical failure ignored
+% -
 
 \subsection{}
 % Part C: ~2 pages
