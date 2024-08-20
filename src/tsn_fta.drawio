@@ -1,31 +1,13 @@
-<mxfile host="Electron" modified="2023-12-10T01:00:05.747Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="cxcewzP0ztQGeUzEXkBV" version="22.1.2" type="device">
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
   <diagram name="Page-1" id="x2RneNhpzeJdeaNSGKi6">
-    <mxGraphModel dx="1434" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-257" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-85" target="Pe75mvs691sBOPTV4Ebk-226">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="410" y="870" />
-              <mxPoint x="680" y="870" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-203" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="709" y="980" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-256" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-227" target="Pe75mvs691sBOPTV4Ebk-124">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="635" y="1070" />
-              <mxPoint x="580" y="1070" />
-              <mxPoint x="580" y="1010" />
-              <mxPoint x="300" y="1010" />
-              <mxPoint x="300" y="860" />
-              <mxPoint x="230" y="860" />
-              <mxPoint x="230" y="830" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-164" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-158">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-164" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;dashed=1;" parent="1" source="Pe75mvs691sBOPTV4Ebk-158" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="185" y="720" as="targetPoint" />
             <Array as="points">
@@ -35,7 +17,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-224" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-218" target="Pe75mvs691sBOPTV4Ebk-122">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-224" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-218" target="Pe75mvs691sBOPTV4Ebk-122" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="660" as="targetPoint" />
             <Array as="points">
@@ -44,46 +26,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-218" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-218" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="85" y="490" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-209" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-203" target="Pe75mvs691sBOPTV4Ebk-208">
+        <mxCell id="jW-7ILWIyM_mXDFZD3dg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-196" target="Pe75mvs691sBOPTV4Ebk-198">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-216" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-203" target="Pe75mvs691sBOPTV4Ebk-215">
+        <mxCell id="jW-7ILWIyM_mXDFZD3dg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-196" target="Pe75mvs691sBOPTV4Ebk-195">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-203" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="444" y="980" width="70" height="40" as="geometry" />
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-196" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="666" y="840" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-197" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-196" target="Pe75mvs691sBOPTV4Ebk-195">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="560" y="900" />
-              <mxPoint x="600" y="900" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-199" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-196" target="Pe75mvs691sBOPTV4Ebk-198">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="540" y="900" />
-              <mxPoint x="507" y="900" />
-              <mxPoint x="507" y="910" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-196" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="515" y="840" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-153" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-121" target="Pe75mvs691sBOPTV4Ebk-150">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-153" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-121" target="Pe75mvs691sBOPTV4Ebk-150" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="650" y="610" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-189" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-189" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470" y="640" as="targetPoint" />
             <mxPoint x="650" y="555" as="sourcePoint" />
@@ -94,10 +56,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-121" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-121" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="625" y="500" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-187" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-119" target="Pe75mvs691sBOPTV4Ebk-117">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-187" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-119" target="Pe75mvs691sBOPTV4Ebk-117" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="610" y="630" />
@@ -105,20 +67,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-211" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-119" target="Pe75mvs691sBOPTV4Ebk-190">
+        <mxCell id="jW-7ILWIyM_mXDFZD3dg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-119" target="Pe75mvs691sBOPTV4Ebk-190">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-212" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-119" target="Pe75mvs691sBOPTV4Ebk-193">
+        <mxCell id="jW-7ILWIyM_mXDFZD3dg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-119" target="Pe75mvs691sBOPTV4Ebk-193">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="550" y="755" />
+              <mxPoint x="670" y="755" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-119" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-119" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="575" y="700" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-107" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-98">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-107" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-98" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="580" y="430" as="targetPoint" />
             <Array as="points">
@@ -127,17 +89,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-113" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-98" target="Pe75mvs691sBOPTV4Ebk-112">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-113" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-98" target="Pe75mvs691sBOPTV4Ebk-112" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="660" y="415" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-98" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-98" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="485" y="360" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-93" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-89" target="Pe75mvs691sBOPTV4Ebk-92">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-93" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-89" target="Pe75mvs691sBOPTV4Ebk-92" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="435" y="420" />
@@ -145,20 +107,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-89" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-89" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="390" y="360" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-1" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-1" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="325" y="90" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-103" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-83" target="Pe75mvs691sBOPTV4Ebk-102">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-103" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-83" target="Pe75mvs691sBOPTV4Ebk-102" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="310" y="755" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-104" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-83" target="Pe75mvs691sBOPTV4Ebk-85">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-104" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-83" target="Pe75mvs691sBOPTV4Ebk-85" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="435" y="760" />
@@ -166,31 +128,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-83" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-83" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="390" y="700" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-37" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-37" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="315" y="230" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-69" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-69" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="170" y="360" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-213" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-63" target="Pe75mvs691sBOPTV4Ebk-67">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-213" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-63" target="Pe75mvs691sBOPTV4Ebk-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-214" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-63" target="Pe75mvs691sBOPTV4Ebk-65">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-214" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-63" target="Pe75mvs691sBOPTV4Ebk-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-63" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-63" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="355" y="570" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-76" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-76" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="235" y="560" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ryoAnqw1Qg5WgR0MWTuV-1" value="Engine unexpectedly ceases function" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-1" target="Pe75mvs691sBOPTV4Ebk-11">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-12" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-1" target="Pe75mvs691sBOPTV4Ebk-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="370" y="150" />
@@ -198,16 +160,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-7" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-7" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="40" y="160" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-4" value="" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-7">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-4" value="" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="Pe75mvs691sBOPTV4Ebk-7" vertex="1">
           <mxGeometry width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-5" value="Mechanical damage renders engine inoperable" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-7">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-5" value="Mechanical damage renders engine inoperable" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="Pe75mvs691sBOPTV4Ebk-7" vertex="1">
           <mxGeometry x="17.5" y="33.333333333333336" width="125" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-4" target="Pe75mvs691sBOPTV4Ebk-1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-4" target="Pe75mvs691sBOPTV4Ebk-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="120" y="150" />
@@ -215,10 +177,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-9" value="Fuel pressure too low" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-9" value="Fuel pressure too low" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="320" y="160" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-45" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-11" target="Pe75mvs691sBOPTV4Ebk-46">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-45" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-11" target="Pe75mvs691sBOPTV4Ebk-46" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="570" y="320" as="targetPoint" />
             <Array as="points">
@@ -227,10 +189,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-11" value="Engine initiates shutdown procedure" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-11" value="Engine initiates shutdown procedure" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="410" y="160" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-42" target="Pe75mvs691sBOPTV4Ebk-1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-42" target="Pe75mvs691sBOPTV4Ebk-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="570" y="170" as="sourcePoint" />
             <Array as="points">
@@ -239,7 +201,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-87" target="Pe75mvs691sBOPTV4Ebk-1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-17" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-87" target="Pe75mvs691sBOPTV4Ebk-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="160" as="sourcePoint" />
             <Array as="points">
@@ -248,21 +210,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-19" value="Fuel line&lt;br&gt;severed" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-19" value="Fuel line&lt;br&gt;severed" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="75" y="290" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-51" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-21" target="Pe75mvs691sBOPTV4Ebk-50">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-51" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-21" target="Pe75mvs691sBOPTV4Ebk-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-21" value="No fuel available to pump" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-21" value="No fuel available to pump" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="300" y="290" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" target="Pe75mvs691sBOPTV4Ebk-9">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" target="Pe75mvs691sBOPTV4Ebk-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="230" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-37" target="Pe75mvs691sBOPTV4Ebk-19">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-37" target="Pe75mvs691sBOPTV4Ebk-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="245" y="300" as="sourcePoint" />
             <Array as="points">
@@ -270,13 +232,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-25" value="Fuel pump not pumping avilable fuel" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-25" value="Fuel pump not pumping avilable fuel" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="200" y="290" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-26" value="Fuel valve shut" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-26" value="Fuel valve shut" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="400" y="290" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-25" target="Pe75mvs691sBOPTV4Ebk-37">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-25" target="Pe75mvs691sBOPTV4Ebk-37" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="245" y="300" as="targetPoint" />
             <Array as="points">
@@ -284,7 +246,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-30" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-26" target="Pe75mvs691sBOPTV4Ebk-37">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-30" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-26" target="Pe75mvs691sBOPTV4Ebk-37" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="275" y="300" as="targetPoint" />
             <Array as="points">
@@ -292,37 +254,37 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-9" target="Pe75mvs691sBOPTV4Ebk-1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-9" target="Pe75mvs691sBOPTV4Ebk-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-44" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-44" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="480" y="160" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-42" value="" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-44">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-42" value="" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="Pe75mvs691sBOPTV4Ebk-44" vertex="1">
           <mxGeometry width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-43" value="Insufficient airflow into engine" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-44">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-43" value="Insufficient airflow into engine" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="Pe75mvs691sBOPTV4Ebk-44" vertex="1">
           <mxGeometry x="10" y="30.400000000000002" width="60" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-46" value="ECS instructs engine to shut down" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-46" value="ECS instructs engine to shut down" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="480" y="290" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-50" value="FMS routes engine to an empty tank" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-50" value="FMS routes engine to an empty tank" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="275" y="360" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-56" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-56" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="245" y="630" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-54" value="" style="shape=offPageConnector;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;rotation=-180;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-56">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-54" value="" style="shape=offPageConnector;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;rotation=-180;labelBorderColor=none;labelBackgroundColor=none;" parent="Pe75mvs691sBOPTV4Ebk-56" vertex="1">
           <mxGeometry width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-55" value="All fuel in tank consumed" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-56">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-55" value="All fuel in tank consumed" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="Pe75mvs691sBOPTV4Ebk-56" vertex="1">
           <mxGeometry x="7.5" y="22.5" width="45" height="22.5" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-207" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.647;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="Pe75mvs691sBOPTV4Ebk-56" source="Pe75mvs691sBOPTV4Ebk-55" target="Pe75mvs691sBOPTV4Ebk-55">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-207" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.647;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="Pe75mvs691sBOPTV4Ebk-56" source="Pe75mvs691sBOPTV4Ebk-55" target="Pe75mvs691sBOPTV4Ebk-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-206" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-58" target="Pe75mvs691sBOPTV4Ebk-61">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-206" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-58" target="Pe75mvs691sBOPTV4Ebk-61" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="393" y="480" />
@@ -330,35 +292,35 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-58" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=and;fontFamily=Helvetica;fontSize=11;fontColor=default;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-58" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=and;fontFamily=Helvetica;fontSize=11;fontColor=default;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="280" y="430" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-61" value="Fuel flow not redirected" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-61" value="Fuel flow not redirected" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="365" y="500" width="55" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-65" value="Pilot Error" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-65" value="Pilot Error" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="325" y="630" width="50" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-67" value="Issued command to switch tank not carried out" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-67" value="Issued command to switch tank not carried out" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="385" y="630" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-72" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-69" target="Pe75mvs691sBOPTV4Ebk-71">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-72" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-69" target="Pe75mvs691sBOPTV4Ebk-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-82" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-69" target="Pe75mvs691sBOPTV4Ebk-81">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-82" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-69" target="Pe75mvs691sBOPTV4Ebk-81" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="125" y="415" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-71" value="Fuel pump damaged" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-71" value="Fuel pump damaged" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="175" y="410" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-73" value="Tank is empty" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-73" value="Tank is empty" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="260" y="490" width="50" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-74" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-73" target="Pe75mvs691sBOPTV4Ebk-58">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-74" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-73" target="Pe75mvs691sBOPTV4Ebk-58" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="480" as="targetPoint" />
             <Array as="points">
@@ -366,7 +328,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-78" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-76" target="Pe75mvs691sBOPTV4Ebk-54">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-78" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-76" target="Pe75mvs691sBOPTV4Ebk-54" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="275" y="630" as="targetPoint" />
             <Array as="points">
@@ -374,7 +336,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-79" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-76" target="Pe75mvs691sBOPTV4Ebk-80">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-79" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-76" target="Pe75mvs691sBOPTV4Ebk-80" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="185" y="620" as="targetPoint" />
             <Array as="points">
@@ -382,38 +344,38 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-80" value="Fuel tank leak" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-80" value="Fuel tank leak" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="195" y="630" width="40" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-81" value="FMS instructs fuel pump to cease operation" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-81" value="FMS instructs fuel pump to cease operation" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="90" y="420" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-85" value="Command not conveyed to FMS unit" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#00bfff;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-85" value="Command not conveyed to FMS unit" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#00bfff;" parent="1" vertex="1">
           <mxGeometry x="370" y="770" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-86" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-86" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="220" y="186" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-87" value="Engine on fire" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-86">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-87" value="Engine on fire" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="Pe75mvs691sBOPTV4Ebk-86" vertex="1">
           <mxGeometry x="-10" y="-16" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-163" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-92" target="Pe75mvs691sBOPTV4Ebk-159">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-163" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-92" target="Pe75mvs691sBOPTV4Ebk-159" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-92" value="FMS instructs valve to close" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-92" value="FMS instructs valve to close" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="470" y="430" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-94" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-21" target="Pe75mvs691sBOPTV4Ebk-37">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-94" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-21" target="Pe75mvs691sBOPTV4Ebk-37" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="340" y="290" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-95" value="Valve failed closed" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-95" value="Valve failed closed" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="375" y="410" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-96" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-96" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="414.9999999999998" y="410" as="sourcePoint" />
             <mxPoint x="414.9999999999998" y="405" as="targetPoint" />
@@ -422,64 +384,64 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-102" value="Mechanical failure" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-102" value="Mechanical failure" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="270" y="760" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-112" value="Command is erroneous" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-112" value="Command is erroneous" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="630" y="430" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-117" value="Mechanical failure detected" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-117" value="Mechanical failure detected" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="550" y="430" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-152" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="10" y="740" width="360" height="430" as="geometry" />
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-152" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="10" y="740" width="490" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-143" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-152">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-143" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="Pe75mvs691sBOPTV4Ebk-152" vertex="1">
           <mxGeometry x="90" y="230" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-139" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-152">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-139" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="Pe75mvs691sBOPTV4Ebk-152" vertex="1">
           <mxGeometry x="195" y="230" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-231" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;dashed=1;" edge="1" parent="Pe75mvs691sBOPTV4Ebk-152" source="Pe75mvs691sBOPTV4Ebk-122">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-231" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;dashed=1;" parent="Pe75mvs691sBOPTV4Ebk-152" source="Pe75mvs691sBOPTV4Ebk-122" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="174.91666666666674" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-122" value="Produced by corruption of other command in transit" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-152">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-122" value="Produced by corruption of other command in transit" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" parent="Pe75mvs691sBOPTV4Ebk-152" vertex="1">
           <mxGeometry x="130" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-124" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=and;fontFamily=Helvetica;fontSize=11;fontColor=default;rotation=-90;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-152">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-124" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=and;fontFamily=Helvetica;fontSize=11;fontColor=default;rotation=-90;" parent="Pe75mvs691sBOPTV4Ebk-152" vertex="1">
           <mxGeometry x="145" y="100" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-156" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="Pe75mvs691sBOPTV4Ebk-152" source="Pe75mvs691sBOPTV4Ebk-125" target="Pe75mvs691sBOPTV4Ebk-127">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-156" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="Pe75mvs691sBOPTV4Ebk-152" source="Pe75mvs691sBOPTV4Ebk-125" target="Pe75mvs691sBOPTV4Ebk-127" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-125" value="Backup Ethernet system not engaged" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-152">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-125" value="Backup Ethernet system not engaged" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" parent="Pe75mvs691sBOPTV4Ebk-152" vertex="1">
           <mxGeometry x="90" y="315" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-145" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="Pe75mvs691sBOPTV4Ebk-152" source="Pe75mvs691sBOPTV4Ebk-143" target="Pe75mvs691sBOPTV4Ebk-125">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-145" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="Pe75mvs691sBOPTV4Ebk-152" source="Pe75mvs691sBOPTV4Ebk-143" target="Pe75mvs691sBOPTV4Ebk-125" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="135" y="315" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-127" value="Comms fault undetected" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-152">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-127" value="Comms fault undetected" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" parent="Pe75mvs691sBOPTV4Ebk-152" vertex="1">
           <mxGeometry x="95" y="390" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-134" value="Fault in transmission" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-152">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-134" value="Fault in transmission" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" parent="Pe75mvs691sBOPTV4Ebk-152" vertex="1">
           <mxGeometry x="180" y="160" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-135" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="Pe75mvs691sBOPTV4Ebk-152" source="Pe75mvs691sBOPTV4Ebk-124" target="Pe75mvs691sBOPTV4Ebk-134">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-135" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="Pe75mvs691sBOPTV4Ebk-152" source="Pe75mvs691sBOPTV4Ebk-124" target="Pe75mvs691sBOPTV4Ebk-134" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-136" value="Transient failure in current Ethernet route" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-152">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-136" value="Transient failure in current Ethernet route" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" parent="Pe75mvs691sBOPTV4Ebk-152" vertex="1">
           <mxGeometry x="270" y="300" width="90" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-137" value="Recurrent fault in Ethernet sytem" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-152">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-137" value="Recurrent fault in Ethernet sytem" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" parent="Pe75mvs691sBOPTV4Ebk-152" vertex="1">
           <mxGeometry x="185" y="310" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-138" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" source="Pe75mvs691sBOPTV4Ebk-139" target="Pe75mvs691sBOPTV4Ebk-136" parent="Pe75mvs691sBOPTV4Ebk-152">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-138" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="Pe75mvs691sBOPTV4Ebk-152" source="Pe75mvs691sBOPTV4Ebk-139" target="Pe75mvs691sBOPTV4Ebk-136" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="240" y="290" />
@@ -487,23 +449,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-140" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" source="Pe75mvs691sBOPTV4Ebk-137" target="Pe75mvs691sBOPTV4Ebk-139" parent="Pe75mvs691sBOPTV4Ebk-152">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-140" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="Pe75mvs691sBOPTV4Ebk-152" source="Pe75mvs691sBOPTV4Ebk-137" target="Pe75mvs691sBOPTV4Ebk-139" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-142" value="Backup Ethernet system fails to mitigate" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-152">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-142" value="Backup Ethernet system fails to mitigate" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" parent="Pe75mvs691sBOPTV4Ebk-152" vertex="1">
           <mxGeometry x="85" y="160" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-133" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="Pe75mvs691sBOPTV4Ebk-152" source="Pe75mvs691sBOPTV4Ebk-124" target="Pe75mvs691sBOPTV4Ebk-142">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-133" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="Pe75mvs691sBOPTV4Ebk-152" source="Pe75mvs691sBOPTV4Ebk-124" target="Pe75mvs691sBOPTV4Ebk-142" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="145" y="150" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-147" value="Fault in backup Ethernet system" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" vertex="1" parent="Pe75mvs691sBOPTV4Ebk-152">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-147" value="Fault in backup Ethernet system" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" parent="Pe75mvs691sBOPTV4Ebk-152" vertex="1">
           <mxGeometry y="310" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-148" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="Pe75mvs691sBOPTV4Ebk-152" source="Pe75mvs691sBOPTV4Ebk-143" target="Pe75mvs691sBOPTV4Ebk-147">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-148" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="Pe75mvs691sBOPTV4Ebk-152" source="Pe75mvs691sBOPTV4Ebk-143" target="Pe75mvs691sBOPTV4Ebk-147" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="115" y="290" />
@@ -511,7 +473,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-154" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-121" target="Pe75mvs691sBOPTV4Ebk-151">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-154" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-121" target="Pe75mvs691sBOPTV4Ebk-151" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="670" y="560" />
@@ -519,13 +481,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-150" value="ECS Fault" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-150" value="ECS Fault" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="620" y="570" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-151" value="Pilot Error" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-151" value="Pilot Error" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="690" y="570" width="50" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-157" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" target="Pe75mvs691sBOPTV4Ebk-161" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-157" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" target="Pe75mvs691sBOPTV4Ebk-161" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="630" as="sourcePoint" />
             <Array as="points">
@@ -534,13 +496,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-158" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-158" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="465" y="570" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-159" value="Command is erroneous" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-159" value="Command is erroneous" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="470" y="500" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-160" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" source="Pe75mvs691sBOPTV4Ebk-158" target="Pe75mvs691sBOPTV4Ebk-162" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-160" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-158" target="Pe75mvs691sBOPTV4Ebk-162" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="510" y="650" />
@@ -548,44 +510,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-161" value="FMS Fault" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-161" value="FMS Fault" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="460" y="680" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-162" value="Pilot Error" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-162" value="Pilot Error" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="530" y="670" width="50" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-190" value="Transient fault" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="605" y="770" width="80" height="60" as="geometry" />
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-193" value="Engine damaged by running outside normal parameters" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="625" y="770" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-193" value="Engine damaged by running outside normal parameters" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="505" y="770" width="90" height="60" as="geometry" />
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-195" value="Erroneous command issued" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="625" y="910" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-195" value="Erroneous command issued" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="560" y="910" width="60" height="60" as="geometry" />
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-198" value="Corrective command not obeyed" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="700" y="910" width="65" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-198" value="Corrective command not obeyed" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="474" y="910" width="65" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-208" value="ECS Fault" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="395" y="1050" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-258" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-215">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="680" y="870" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="525" y="1170" />
-              <mxPoint x="790" y="1170" />
-              <mxPoint x="790" y="870" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-215" value="Command not conveyed to ECS unit" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#00bfff;" vertex="1" parent="1">
-          <mxGeometry x="485" y="1050" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-217" value="FMS Fault" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-217" value="FMS Fault" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="40" y="570" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-219" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" source="Pe75mvs691sBOPTV4Ebk-218" target="Pe75mvs691sBOPTV4Ebk-217" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-219" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-218" target="Pe75mvs691sBOPTV4Ebk-217" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="110" y="550" />
@@ -593,7 +536,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-220" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" source="Pe75mvs691sBOPTV4Ebk-218" target="Pe75mvs691sBOPTV4Ebk-221" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-220" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-218" target="Pe75mvs691sBOPTV4Ebk-221" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="130" y="550" />
@@ -601,29 +544,73 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-221" value="Pilot Error" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-221" value="Pilot Error" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="110" y="560" width="50" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-232" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-226" target="Pe75mvs691sBOPTV4Ebk-227">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-232" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-226" target="Pe75mvs691sBOPTV4Ebk-227" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-233" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-226" target="Pe75mvs691sBOPTV4Ebk-228">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-233" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-226" target="Pe75mvs691sBOPTV4Ebk-228" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-226" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="645" y="930" width="70" height="40" as="geometry" />
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-226" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=or;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="460" y="920" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-227" value="Command lost in transit" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#00bfff;" vertex="1" parent="1">
-          <mxGeometry x="595" y="1000" width="80" height="60" as="geometry" />
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-227" value="Command lost in transit" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#00bfff;" parent="1" vertex="1">
+          <mxGeometry x="410" y="990" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-255" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-228" target="Pe75mvs691sBOPTV4Ebk-254">
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-255" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=none;endFill=0;" parent="1" source="Pe75mvs691sBOPTV4Ebk-228" target="Pe75mvs691sBOPTV4Ebk-254" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-228" value="Command still in Ethernet buffer" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#00bfff;" vertex="1" parent="1">
-          <mxGeometry x="685" y="1000" width="80" height="60" as="geometry" />
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-228" value="Command still in Ethernet buffer" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#00bfff;" parent="1" vertex="1">
+          <mxGeometry x="500" y="990" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Pe75mvs691sBOPTV4Ebk-254" value="Timing fault in Ethernet system" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" vertex="1" parent="1">
-          <mxGeometry x="690" y="1080" width="70" height="70" as="geometry" />
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-254" value="Timing fault in Ethernet system" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#01bbfa;" parent="1" vertex="1">
+          <mxGeometry x="505" y="1070" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-190" value="Transient fault" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="530" y="770" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jW-7ILWIyM_mXDFZD3dg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-203" target="Pe75mvs691sBOPTV4Ebk-208">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jW-7ILWIyM_mXDFZD3dg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-203" target="Pe75mvs691sBOPTV4Ebk-215">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-208" value="ECS Fault" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="750" y="1050" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pe75mvs691sBOPTV4Ebk-215" value="Command not conveyed to ECS unit" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=#00bfff;" parent="1" vertex="1">
+          <mxGeometry x="660" y="1050" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jW-7ILWIyM_mXDFZD3dg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-227" target="Pe75mvs691sBOPTV4Ebk-124">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1070" />
+              <mxPoint x="390" y="1070" />
+              <mxPoint x="390" y="860" />
+              <mxPoint x="240" y="860" />
+              <mxPoint x="240" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jW-7ILWIyM_mXDFZD3dg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-85" target="Pe75mvs691sBOPTV4Ebk-226">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="870" />
+              <mxPoint x="495" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jW-7ILWIyM_mXDFZD3dg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="Pe75mvs691sBOPTV4Ebk-215" target="Pe75mvs691sBOPTV4Ebk-226">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="1130" />
+              <mxPoint x="600" y="1130" />
+              <mxPoint x="600" y="870" />
+              <mxPoint x="495" y="870" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
