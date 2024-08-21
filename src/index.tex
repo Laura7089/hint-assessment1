@@ -40,24 +40,32 @@ They can also allow economic hybridisation of hardware in networks, with higher-
 In 2012, the potential for use in industrial automation was recognised and the project was renamed~\cite{imtiazProposalIntegrateProcess2011,zezulkaTimeSensitiveNetworkingCommunication2019}.
 TSN has since seen varying adoption across the Automotive, Aviation and Production industries.
 
-In the Automotive industry, dedicated data bus systems like CAN~\cite{RoadVehiclesController2024} rule supreme in inter-system communication, even being legally mandated in several major territories including the European Union~\cite{RegulationECNo2007}.
+In the Automotive industry, dedicated data bus systems designed for automotive use like CAN~\cite{RoadVehiclesController2024} rule supreme in inter-system communication, even being legally mandated in several major territories --- including the European Union~\cite{RegulationECNo2007}.
 CAN has relatively low data throughput and typical modern implementations utilise a complex domain-based architecture with highly distributed computing resources~\cite{ashjaeiTimeSensitiveNetworkingAutomotive2021a}.
-Automotive TSN proposals and research currently promote the concept of a system with a smaller set of controllers networks together over a single high-throughput ethernet network~\cite{ashjaeiTimeSensitiveNetworkingAutomotive2021a}, though it is unclear whether this system has been deployed in earnest.
+Automotive TSN proposals and research currently promote the concept of a system with a smaller set of controllers networked together over a single high-throughput (10+Gbps) ethernet network~\cite{ashjaeiTimeSensitiveNetworkingAutomotive2021a,zinnerAutomotiveArchitectureEvolution2019}, though it is unclear whether this system has been deployed in earnest.
 
 In Aviation, the IEEE are working on the P802.1 standard~\cite{P8021DPTSN2024} for wide adoption.
-The ARINC664P7 specification~\cite{ARINC664P71AIRCRAFTDATA2009} is an existing alternative standard, with \keyword{AFDX} as the de-facto implementation of it~\cite{moreauxDataTransmissionSystem2005}.
-AFDX is installed on many operational platforms today, including the Boeing 787 Dreamliner, the A350 and the A380 for which it was originally developed~\cite{AFDXTechnologyImprove2005,AirbusRockwellCollins13,itierA380IntegratedModular}.
+The ARINC664P7 specification~\cite{ARINC664P71AIRCRAFTDATA2009} is a comparable existing standard using ethernet, with \keyword{AFDX} as the de-facto implementation~\cite{moreauxDataTransmissionSystem2005}.
+AFDX is installed on many operational platforms today, including the Boeing 787 Dreamliner, the Airbus A350 and the A380 for which it was originally developed~\cite{AFDXTechnologyImprove2005,AirbusRockwellCollins13,itierA380IntegratedModular}.
 It has since influenced and informed the development of TSN~\cite{pasquierAvionicsFullDuplex2015}.
 
 In production industries, TSN has seen advancements in deployment on factory floors and production lines as a subcategory of the accepted ``Industrial Ethernet'' group of technologies.
-This category is unique in that ethernet technologies with temporal budgeting and real-time extensions were already employed prior to the advent of TSN as it is now; technologies such as EtherCAT or ProfiNet saw wide use in the 2010s and later~\cite{linLookIndustrialEthernet2018}.
-Before ethernet usage, a wide array of FieldBus technologies were employed for synchronisation and communications.
+This category is unique among the other discussed areas in that ethernet technologies with temporal budgeting and real-time extensions were already employed prior to the advent of TSN as it is now.
+EtherCAT, ProfiNet and other ethernet-based systems saw wide use in the 2010s and later~\cite{linLookIndustrialEthernet2018}, largely superceding the array of FieldBus technologies that came before them.
 Today, FieldBus and Ethernet-based systems are standardised under the same banner, IEC 61158~\cite{IEC611581Industrial2023}.
 TSN has not yet seen inclusion in this standard, but it is expected that the standardisation of real-time-ethernet functionality will benefit the industry and allow interoperability between existing technologies~\cite{linLookIndustrialEthernet2018,sommerEthernetSurveyIts2010}.
 
-% - "Industrial ethernet" is a loose term that refers to groups of ethernet-like protocols and ethernet extensions such as Profinet or EtherCat, but doesn't necessarily refer to TSN~\cite{linLookIndustrialEthernet2018}
-%   - Originally developed to rival FieldBus technologies, ethernet adoption overtook these in 2018~\cite{nettimelogicgmbhIntroductionTimeSensitiveNetworkingTSN,janssonIndustrialNetworkMarket2024}
-%   - TSN can be viewed as an attempt to standardise many existing standards~\cite{nettimelogicgmbhIntroductionTimeSensitiveNetworkingTSN}
+From an academic standpoint, TSN is undergoing several different directions of research:
+
+\begin{itemize}
+    \item Network calculus has been employed in several studies to prove worst-case latency and buffer size bounds across different network configurations~\cite{maileNetworkCalculusResults2020}.
+    In turn this provides theory-based evidence for the behaviour of different schedulers and network architectures.
+    \item Attempts to enable TSN over wireless networks are ongoing, aiming to bring the advantages of moveable and rapidly-reconfigurable stations to bear.
+    Some obstacles to a workable proof-of-concept still persist, notably time synchronisation (ie. PTP~\cite{IEEEStandardLocal2020}), but are expected to be surmountable~\cite{mildnerTimeSensitiveNetworking2019}.
+    \item TSN at present cannot model dynamic traffic priority classes that may be required when a drastic change occurs in the environment; it can only operate in an environment with statically-known traffic profiles~\cite{seolTimelySurveyTimeSensitive2021}.
+    \item Routing algorithms in the accepted standard leave something to be desired in redundancy and load balancing.
+    Alternative systems have been proposed~\cite{atallahRoutingSchedulingTimeTriggered2020}.
+\end{itemize}
 
 \subsection{Mixed Criticality System with TSNs}
 % Part C: ~1.5 pages
@@ -151,7 +159,7 @@ This idenfitifes timing errors in particular as being a critical problem and nee
 Timing faults may be produced by either clock drift in ethernet components (switches, interfaces or otherwise) which in turn is caused by incorrect communication between the PTP grandmaster and the component, or transmission starvation of high-criticality packets.
 
 Transmission starvation probability is increased (in a non-scheduled system) as traffic volume increases.
-The infotainment system in particular can be expected to produce a large amount of ethernet traffic to distribute high-quality audiovisual data across the aircraft.
+The infotainment system in particular can be expected to produce a large amount of ethernet traffic to distribute high-quality audiovisual data across the aircraft, contributing to this effect.
 
 \subsection{Mitigating Factors of Time Sensitive Networks}
 % Part C: ~2 pages
