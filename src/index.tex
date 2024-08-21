@@ -40,12 +40,20 @@ They can also allow economic hybridisation of hardware in networks, with higher-
 In 2012, the potential for use in industrial automation was recognised and the project was renamed~\cite{imtiazProposalIntegrateProcess2011,zezulkaTimeSensitiveNetworkingCommunication2019}.
 TSN has since seen varying adoption across the Automotive, Aviation and Production industries.
 
-In the Automotive industry,
+In the Automotive industry, dedicated data bus systems like CAN~\cite{RoadVehiclesController2024} rule supreme in inter-system communication, even being legally mandated in several major territories including the European Union~\cite{RegulationECNo2007}.
+CAN has relatively low data throughput and typical modern implementations utilise a complex domain-based architecture with highly distributed computing resources~\cite{ashjaeiTimeSensitiveNetworkingAutomotive2021a}.
+Automotive TSN proposals and research currently promote the concept of a system with a smaller set of controllers networks together over a single high-throughput ethernet network~\cite{ashjaeiTimeSensitiveNetworkingAutomotive2021a}, though it is unclear whether this system has been deployed in earnest.
 
 In Aviation, the IEEE are working on the P802.1 standard~\cite{P8021DPTSN2024} for wide adoption.
-The existing ARINC664P7 specification~\cite{ARINC664P71AIRCRAFTDATA2009} is an existing alternative standard, with \keyword{AFDX} as the de-facto implementation of it~\cite{moreauxDataTransmissionSystem2005}.
-AFDX is installed on many operational platforms today, including the Boeing 787 Dreamliner\cite{AFDXTechnologyImprove2005}, the A350~\cite{AirbusRockwellCollins13} and the A380, for which it was originally developed~\cite{itierA380IntegratedModular}.
-It has since influenced the development of TSN~\cite{pasquierAvionicsFullDuplex2015}.
+The ARINC664P7 specification~\cite{ARINC664P71AIRCRAFTDATA2009} is an existing alternative standard, with \keyword{AFDX} as the de-facto implementation of it~\cite{moreauxDataTransmissionSystem2005}.
+AFDX is installed on many operational platforms today, including the Boeing 787 Dreamliner, the A350 and the A380 for which it was originally developed~\cite{AFDXTechnologyImprove2005,AirbusRockwellCollins13,itierA380IntegratedModular}.
+It has since influenced and informed the development of TSN~\cite{pasquierAvionicsFullDuplex2015}.
+
+In production industries, TSN has seen advancements in deployment on factory floors and production lines as a subcategory of the accepted ``Industrial Ethernet'' group of technologies.
+This category is unique in that ethernet technologies with temporal budgeting and real-time extensions were already employed prior to the advent of TSN as it is now; technologies such as EtherCAT or ProfiNet saw wide use in the 2010s and later~\cite{linLookIndustrialEthernet2018}.
+Before ethernet usage, a wide array of FieldBus technologies were employed for synchronisation and communications.
+Today, FieldBus and Ethernet-based systems are standardised under the same banner, IEC 61158~\cite{IEC611581Industrial2023}.
+TSN has not yet seen inclusion in this standard, but it is expected that the standardisation of real-time-ethernet functionality will benefit the industry and allow interoperability between existing technologies~\cite{linLookIndustrialEthernet2018,sommerEthernetSurveyIts2010}.
 
 % - "Industrial ethernet" is a loose term that refers to groups of ethernet-like protocols and ethernet extensions such as Profinet or EtherCat, but doesn't necessarily refer to TSN~\cite{linLookIndustrialEthernet2018}
 %   - Originally developed to rival FieldBus technologies, ethernet adoption overtook these in 2018~\cite{nettimelogicgmbhIntroductionTimeSensitiveNetworkingTSN,janssonIndustrialNetworkMarket2024}
@@ -155,7 +163,7 @@ Time Sensitive Networking provides several guarantees addressing the above pheno
     Thus, if there is a failure of both PTP-GM and any backup machines connected, one of the other stations can be selected as a reference leader in the meantime; an effective partial recovery from the fault which should prevent engine loss in the event of PTP-GM faults.
     \item Time-aware scheduler 802.1Qbv~\cite{IEEEStandardLocal2016a} functions by allocating time segments for transmission of different priority traffic, preventing transmission starvation.
     Operational time is broken into fixed-length cycles which have fixed-length slots within them for high-criticality traffic, during which no other traffic may be transmitted.
-    If the division times are set appropriately, guaranteed maximum-delivery-time can be adjusted to provide appropriate safety guarantees.
+    If the time division scheme is configured appropriately, guaranteed maximum-delivery-time can be adjusted to provide appropriate safety guarantees and effectively mitigate the effect of high traffic on the engine hazard.
 \end{itemize}
 
 \section{Question 3}
