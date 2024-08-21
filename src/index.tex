@@ -9,7 +9,7 @@
 % create (or steal) diagram depicting typical ethernet architecture - perhaps show full-duplex-compatible vs non?
 
 Ethernet is a set of systems standardising 2-way device-to-device digital data exchange and communication over physical cabling.
-Devices within an Ethernet network are referred to as \textbf{stations}; stations exchange \textbf{frames}: variable-length, self-contained, addressed sequences of bits which are typically single-station-to-single-station (though ``multicast'' modes of operation are available)~\cite{IEEEStandardEthernet2022}\cite{spurgeonEthernetDefinitiveGuide2000}.
+Devices within an Ethernet network are referred to as \keyword{stations}; stations exchange \keyword{frames}: variable-length, self-contained, addressed sequences of bits which are typically single-station-to-single-station (though ``multicast'' modes of operation are available)~\cite{IEEEStandardEthernet2022,spurgeonEthernetDefinitiveGuide2000}.
 
 The basic Ethernet standard (see \cite{IEEEStandardEthernet2022}) does not provide any mechanism to guarantee delivery of frames, nor the time taken to do so.
 It provides a basic system for receiving stations to detect errors during frame transmission to a reasonable accuracy using a checksum algorithm attached to each frame\footnote{ARINC 629 likewise provides a checksum~\cite{dheerajpuniaARINC629Digital2021}, though the guarantee of integrity is weaker owing to the simplicity of the algorithm and the length of the single parity bit.}, but no method for recovery from this error --- the frame is simply dropped~\cite{odomCCNA200301Official2019}.
@@ -17,18 +17,18 @@ The protocol does not provide any way for a frame's transmission to be interrupt
 
 Ethernet offers two methods of operation pertinent to resource management:
 
-\begin{itemize}
-    \item \label{def:halfduplex} \textbf{Half-Duplex} offers links between devices which are only available to transmit on by a single station at a time.
-        This is managed through a mechanism known as the \textbf{Media Access Control Protocol}, which is embedded in each station's Ethernet controller.
-        Under this system, stations must listen to the link to determine if it is in use, then attempt to transmit their next frame; if two stations try to transmit a frame at the same time, a \textbf{collision} occurs and both devices must ``back off'' and attempt to re-transmit their frame in the same manner a random time offset in the future.
-    \item \label{def:fullduplex} \textbf{Full-Duplex} offers links between devices which may be both transmitted and received on at the same time~\cite{spurgeonEthernetDefinitiveGuide2000}.
+\begin{description}
+    \item{\keyword{Half-Duplex}}\label{def:halfduplex} offers links between devices which are only available to transmit on by a single station at a time.
+        This is managed through a mechanism known as the \keyword{Media Access Control Protocol}, which is embedded in each station's Ethernet controller.
+        Under this system, stations must listen to the link to determine if it is in use, then attempt to transmit their next frame; if two stations try to transmit a frame at the same time, a \keyword{collision} occurs and both devices must ``back off'' and attempt to re-transmit their frame in the same manner a random time offset in the future.
+    \item{\keyword{Full-Duplex}}\label{def:fullduplex} offers links between devices which may be both transmitted and received on at the same time~\cite{spurgeonEthernetDefinitiveGuide2000}.
         This mode can only be enabled on point-to-point links which have exactly two stations with all hardware being compatible, including cabling.
         Under this system, the link is split into TX and RX channels which may be utilised simultaneously, eliminating the need to manage collisions and the MAC Protocol.
         Higher throughput and more predictable timing may be conferred by this, but this is not guaranteed; other sources of nondeterministic time still exist within the system.
         Furthermore, for networks with many stations, switches (see below) or some other form of routing are required.
-\end{itemize}
+\end{description}
 
-In systems with many stations which all need to transmit different data to each other, it may be desirable to add in \textbf{Switches}\footnote{Sometimes referred to as \textbf{Switching Hubs}~\cite{spurgeonEthernetDefinitiveGuide2000}.}.
+In systems with many stations which all need to transmit different data to each other, it may be desirable to add in \keyword{Switches}\footnote{Sometimes referred to as \keyword{Switching Hubs}~\cite{spurgeonEthernetDefinitiveGuide2000}.}.
 These are stations with many connection ports that function as address-aware relays: they automatically segment the network by station residency and only forward frames to segment(s) connected to the addressee\cite{spurgeonEthernetDefinitiveGuide2000}.
 A switch may allow more efficient link utilisation, and fewer collisions to occur in Half-Duplex operation.
 They can also allow economic hybridisation of hardware in networks, with higher-throughput links between switches and ``downgraded'' links between switches and non-switch stations as required.
@@ -36,40 +36,50 @@ They can also allow economic hybridisation of hardware in networks, with higher-
 \subsection{Time-Sensitive Networks: Application and Research}
 % Part B: ~2 pages
 
-% - originates from audio-visual-bridging task group
-%   - founded in 2005
-%   - determined that the standard was useful for industrial automation applications~\cite{imtiazProposalIntegrateProcess2011}
-%   - then renamed in 2012~\cite{zezulkaTimeSensitiveNetworkingCommunication2019} to the more general "Time Sensitive Networking"
-% - IEEE standard for TSNs in aviation is in development: \cite{P8021DPTSN}
+``Time-Sensitive Networks'' as we know them originate from a project of the \keyword{AVB} (Audio-Visual-Bridging) task group founded in 2005 at the IEEE.
+In 2012, the potential for use in industrial automation was recognised and the project was renamed~\cite{imtiazProposalIntegrateProcess2011,zezulkaTimeSensitiveNetworkingCommunication2019}.
+TSN has since seen varying adoption across the Automotive, Aviation and Production industries.
+
+In the Automotive industry,
+
+In Aviation, the IEEE are working on the P802.1 standard~\cite{P8021DPTSN2024} for wide adoption.
+The existing ARINC664P7 specification~\cite{ARINC664P71AIRCRAFTDATA2009} is an existing alternative standard, with \keyword{AFDX} as the de-facto implementation of it~\cite{moreauxDataTransmissionSystem2005}.
+AFDX is installed on many operational platforms today, including the Boeing 787 Dreamliner\cite{AFDXTechnologyImprove2005}, the A350~\cite{AirbusRockwellCollins13} and the A380, for which it was originally developed~\cite{itierA380IntegratedModular}.
+It has since influenced the development of TSN~\cite{pasquierAvionicsFullDuplex2015}.
+
+% - "Industrial ethernet" is a loose term that refers to groups of ethernet-like protocols and ethernet extensions such as Profinet or EtherCat, but doesn't necessarily refer to TSN~\cite{linLookIndustrialEthernet2018}
+%   - Originally developed to rival FieldBus technologies, ethernet adoption overtook these in 2018~\cite{nettimelogicgmbhIntroductionTimeSensitiveNetworkingTSN,janssonIndustrialNetworkMarket2024}
+%   - TSN can be viewed as an attempt to standardise many existing standards~\cite{nettimelogicgmbhIntroductionTimeSensitiveNetworkingTSN}
 
 \subsection{Mixed Criticality System with TSNs}
 % Part C: ~1.5 pages
 
 We use the given example subsystems to illustrate our example of a TSN for an aviation-relevant mixed criticality system.
 
-The \textbf{Command System} is inserted, and defined as the systems that interface with the crew (primarily pilots) of the aircraft and allow them to issue commands to and view the status of other systems; in addition to encompassing ``auto-pilot'' capabilities.
+The \keyword{Command System} is inserted, and defined as the systems that interface with the crew (primarily pilots) of the aircraft and allow them to issue commands to and view the status of other systems; in addition to encompassing ``auto-pilot'' capabilities.
 
 We further make the following assumptions:
 
 \begin{itemize}
-    \item All subsystems must interface with the \textbf{Command System} to allow interaction from the crew
-    \item \textbf{Flight Control System} encompasses the control surfaces and the actuation systems related to them
-    \item \textbf{Power Distribution System} refers to routing of electrical power across the aircraft, and that all other subsystems require power delivery and thus communication with the PDS
-    \item \textbf{Engine Control System} encompasses active engine controls such as throttling, shutdown etc. in addition to into-engine fuel pumping
-    \item \textbf{Fuel Management System} encompasses fuel tank status data and control for inter-tank fuel transfer and balancing, and must maintain a dedicated connection with the Engine Control System to exchange information about fuel demands and consumption rates
-    \item All sub-systems must interface with the \textbf{Power Distribution System} in order to negotiate their power needs
+    \item All subsystems must interface with the \keyword{Command System} to allow interaction from the crew
+    \item \keyword{Flight Control System} encompasses the control surfaces and the actuation systems related to them
+    \item \keyword{Power Distribution System} refers to routing of electrical power across the aircraft, and that all other subsystems require power delivery and thus communication with the PDS
+    \item \keyword{Engine Control System} encompasses active engine controls such as throttling, shutdown etc. in addition to into-engine fuel pumping
+    \item \keyword{Fuel Management System} encompasses fuel tank status data and control for inter-tank fuel transfer and balancing, and must maintain a dedicated connection with the Engine Control System to exchange information about fuel demands and consumption rates
+    \item All sub-systems must interface with the \keyword{Power Distribution System} in order to negotiate their power needs
     \item All sub-systems' connections with the Command System and the Power Distribution System inherit the DAL of that subsystem; we consider failures in communication to constitute failure of the system as either or both of loss of control and loss of power will occur
-    \item The \textbf{Navigation System} must transmit data to the Command System with a deterministic rate and latency
+    \item The \keyword{Navigation System} must transmit data to the Command System with a deterministic rate and latency
 \end{itemize}
 
 With this information, the collective communication network on the aircraft is segmented into VLANs with appropriate priorities set as defined in IEEE 802.1Q~\cite{IEEEStandardLocal2022} chosen based upon the DAL of the components contained within, shown here in figure~\ref{fig:vlans}.
-Time-aware scheduler IEEE 802.1Qbv~\cite{IEEEStandardLocal2018a}\cite{ISOIECIEEE2018} is enabled on all connections and devices.
-To facilitate the correct function of Time-Sensitive Scheduling, at least one independent dedicated PTP grandmaster unit, compliant with the specific PTP subset IEE 802.1AS~\cite{IEEEStandardLocal2020} must exist on the network, with potential for one or more redundant additional units.
+Time-aware scheduler IEEE 802.1Qbv~\cite{IEEEStandardLocal2018a,ISOIECIEEE2018} is enabled on all connections and devices.
+To facilitate the correct function of Time-Sensitive Scheduling, at least one independent dedicated PTP grandmaster unit (\keyword{PTP-GM}), compliant with the specific PTP subset IEE 802.1AS~\cite{IEEEStandardLocal2020} must exist on the network, with potential for one or more redundant additional units.
 All stations must be able to fully comply with the 802.1Q~\cite{IEEEStandardLocal2018a}, 802.1Qbv~\cite{IEEEStandardLocal2016a} and 802.1AS~\cite{IEEEStandardLocal2020} standards to uphold the guarantees required of the system.
 
 Figure~\ref{fig:topology} shows a reference topology for only the priority A VLAN between the Command, Flight Control, Power Distribution and Engine Control subsystems.
-For visual simplicity, redundant network links and redundant grandmaster units, among others, are not shown; however, their presence should be expected --- it will be assumed that the shown network is duplicated wholly and independently once, including Ethernet interfaces.
-Such a redundancy requires internal logic on peripherals to avoid duplication of packets, and fault detection of a network should the connection remain but the frames be damaged in some fashion.
+For visual simplicity, redundant network links (\keyword{INT-RED}) and redundant grandmaster units (\keyword{PTP-GM-RED}), among others, are not shown; however, their presence should be expected --- it will be assumed that the shown network is duplicated wholly and independently once (\keyword{ALL-RED}), including Ethernet interfaces.
+Such a redundancy would additionally require switching logic (\keyword{INT-SWC}) on peripherals to avoid duplication of packets.
+Fault detection on all network(s) should be able to detect malformed frames (\keyword{INT-FD}).
 
 In order to manage temporal resources closely and effectively, the system might configure the 803.1Qbv scheduler to allocate time within network cycles based on the priority of the VLANs within~\cite{IEEEStandardLocal2016a}.
 Once required transmission/reception rates and latencies of subsystems are known (these can be calculated from their expected performance envelopes), this can be combined with additional time extensions based on their DAL class to ensure their respective VLANs are allocated the time they require for correct and safe operation.
@@ -99,6 +109,8 @@ Notable examples of this are expected to include the connection between the Navi
 \subsection{Example Fault Tree Analysis}
 % Part A: ~1 page
 
+% feedback: needs to talk about the answer to 1C.
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.85\textwidth]{tsn_fta}
@@ -108,10 +120,6 @@ Notable examples of this are expected to include the connection between the Navi
 \subsection{Explanation}
 % Part B: ~2 pages
 
-% assumptions made in fault tree:
-% - fuel pumping system simplified to pump, valve and selectable fuel tank input; cite RR book
-% - mechanical failure mostly ignored
-%
 % contributions of communication system to top fault:
 % - broadly can be broken into two fault groupings:
 %   - fault causes corruption or dropping of message issued to a system
@@ -120,6 +128,24 @@ Notable examples of this are expected to include the connection between the Navi
 %     - message is lost or undelivered
 %   - message delivered too late to prevent a fault
 %     - caused by temporal mismanagement
+%     - most likely to occur as a result of high system stress or PDP synchronisation failure
+
+In this FTA, the fuel pumping system is simplified to a pump, a valve and selectable (absolute) fuel tank input.
+Many different points in the system where mechanical failure can manifest have been ignored, and mechanical failures which are illustrated have been expressed in a simplistic way.
+These are to allow focus on the communications system.
+
+If an unwanted engine shutdown is to be caused (in whole or part) by the communication system, both of the following must occur:
+
+\begin{enumerate}
+    \item A fault in the primary ethernet system, either: \begin{enumerate}
+        \item Messages are not delivered on time or at all
+        \item Messages are delivered but are corrupt or invalid
+    \end{enumerate}
+    \item A fault in the backup ethernet system (\keyword{ALL-RED}) or a fault that prevents it from being used
+\end{enumerate}
+
+If these two faults occur simultaneously, the communications system can be solely responsible for the engine failure.
+If a communications timing fault occurs alone, then a fault in another system can combine with this to produce the engine failure; for example, if there is a fuel tank leak and a timing fault in the corrective command.
 
 \subsection{Mitigating Factors of Time Sensitive Networks}
 % Part C: ~2 pages
