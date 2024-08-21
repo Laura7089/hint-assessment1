@@ -73,7 +73,7 @@ We further make the following assumptions:
 
 With this information, the collective communication network on the aircraft is segmented into VLANs with appropriate priorities set as defined in IEEE 802.1Q~\cite{IEEEStandardLocal2022} chosen based upon the DAL of the components contained within, shown here in figure~\ref{fig:vlans}.
 Time-aware scheduler IEEE 802.1Qbv~\cite{IEEEStandardLocal2018a,ISOIECIEEE2018} is enabled on all connections and devices.
-To facilitate the correct function of Time-Sensitive Scheduling, at least one independent dedicated PTP grandmaster unit (\keyword{PTP-GM}), compliant with the specific PTP subset IEE 802.1AS~\cite{IEEEStandardLocal2020} must exist on the network, with potential for one or more redundant additional units.
+To facilitate the correct function of Time-Sensitive Scheduling, at least one independent dedicated high-priority PTP grandmaster unit (\keyword{PTP-GM}), compliant with the specific PTP subset IEE 802.1AS~\cite{IEEEStandardLocal2020} must exist on the network, with potential for one or more redundant additional units.
 All stations must be able to fully comply with the 802.1Q~\cite{IEEEStandardLocal2018a}, 802.1Qbv~\cite{IEEEStandardLocal2016a} and 802.1AS~\cite{IEEEStandardLocal2020} standards to uphold the guarantees required of the system.
 
 Figure~\ref{fig:topology} shows a reference topology for only the priority A VLAN between the Command, Flight Control, Power Distribution and Engine Control subsystems.
@@ -120,22 +120,15 @@ Notable examples of this are expected to include the connection between the Navi
 \subsection{Explanation}
 % Part B: ~2 pages
 
-% contributions of communication system to top fault:
-% - broadly can be broken into two fault groupings:
-%   - fault causes corruption or dropping of message issued to a system
-%     - message is damaged to indicate something it should not
-%       - this is not likely
-%     - message is lost or undelivered
-%   - message delivered too late to prevent a fault
-%     - caused by temporal mismanagement
-%     - most likely to occur as a result of high system stress or PDP synchronisation failure
+In this FTA, we make the following assumptions and assertions:
 
-In this FTA, the fuel pumping system is simplified to a pump, a valve and selectable (absolute) fuel tank input.
-Many different points in the system where mechanical failure can manifest have been ignored, and mechanical failures which are illustrated have been expressed in a simplistic way.
-These are to allow focus on the communications system.
+\begin{itemize}
+    \item For simplicity, the fuel pumping system is simplified to a pump, a valve and selectable (absolute) fuel tank input.
+    \item For simplicity, many different points in the system where mechanical failure can manifest have been ignored, and mechanical failures which are illustrated have been expressed in a simplistic way.
+    \item The engines are managed entirely by the ECS, and cannot be made to run dangerously by pilot error.
+\end{itemize}
 
 If an unwanted engine shutdown is to be caused (in whole or part) by the communication system, both of the following must occur:
-
 \begin{enumerate}
     \item A fault in the primary ethernet system, either: \begin{enumerate}
         \item Messages are not delivered on time or at all
@@ -143,12 +136,27 @@ If an unwanted engine shutdown is to be caused (in whole or part) by the communi
     \end{enumerate}
     \item A fault in the backup ethernet system (\keyword{ALL-RED}) or a fault that prevents it from being used
 \end{enumerate}
-
 If these two faults occur simultaneously, the communications system can be solely responsible for the engine failure.
-If a communications timing fault occurs alone, then a fault in another system can combine with this to produce the engine failure; for example, if there is a fuel tank leak and a timing fault in the corrective command.
+The one exception to this is in the event of a fuel flow failure: there only needs to be one timing fault (with PTP-GM) in the communications system to produce the hazard.
+
+This idenfitifes timing errors in particular as being a critical problem and needing of particular attention to establish acceptable safety guarantees.
+Timing faults may be produced by either clock drift in ethernet components (switches, interfaces or otherwise) which in turn is caused by incorrect communication between the PTP grandmaster and the component, or transmission starvation of high-criticality packets.
+
+Transmission starvation probability is increased (in a non-scheduled system) as traffic volume increases.
+The infotainment system in particular can be expected to produce a large amount of ethernet traffic to distribute high-quality audiovisual data across the aircraft.
 
 \subsection{Mitigating Factors of Time Sensitive Networks}
 % Part C: ~2 pages
+
+Time Sensitive Networking provides several guarantees addressing the above phenomena:
+
+\begin{itemize}
+    \item Precision Time Protocol (PTP) as implemented for TSN by IEEE 802.1AS~\cite{IEEEStandardLocal2020} requires compliant devices to synchronise effectively under heavy load; additionally, the protocol implements an algorithm for selecting a new PTP grandmaster in the event of a failure of the current one.
+    Thus, if there is a failure of both PTP-GM and any backup machines connected, one of the other stations can be selected as a reference leader in the meantime; an effective partial recovery from the fault which should prevent engine loss in the event of PTP-GM faults.
+    \item Time-aware scheduler 802.1Qbv~\cite{IEEEStandardLocal2016a} functions by allocating time segments for transmission of different priority traffic, preventing transmission starvation.
+    Operational time is broken into fixed-length cycles which have fixed-length slots within them for high-criticality traffic, during which no other traffic may be transmitted.
+    If the division times are set appropriately, guaranteed maximum-delivery-time can be adjusted to provide appropriate safety guarantees.
+\end{itemize}
 
 \section{Question 3}
 % ~3.5 pages
