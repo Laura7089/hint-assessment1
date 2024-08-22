@@ -182,12 +182,67 @@ Time Sensitive Networking provides several guarantees addressing the above pheno
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.75\textwidth]{tsn_gsn}
+\includegraphics[width=0.85\textwidth]{tsn_gsn}
 \caption{Argument presented with Goal-Structuring-Notation}
 \end{figure}
 
 \subsection{Explanation}
 % Part B: ~1 page
 
+This argument is divided into three broad sub-arguments relating to systems on the aircraft: \begin{description}
+    \item{\textbf{Software}} the software driving the ECS units
+    \item{\textbf{Hardware}} the mechanical systems on the engines
+    \item{\textbf{Communications}} the physical equipment and firmware comprising the TSN-compliant ethernet system
+\end{description}
+
 \subsection{Evidence Gathering Techniques}
 % Part C: ~1 page
+
+\subsubsection*{Software}
+
+% - software testing
+%   - need to enumerate the expected conditions the system must function under, including partial failure and unusual real-world scenarios
+
+To collect simulation data on ECS software, the final ECS hardware configuration (including the ECS units and command system) should be either assembled and outfitted with data collection equipment, or appropriately simulated in a time-aware fashion.
+Ideally both approaches would be utilised.
+System operation should be simulated with appropriate induced response from interfacing components --- for the purposes of testing the ECS software, this is primarily the Command System.
+During simulated operation, data should collected on the operation of software on the ECS units.
+The conditions of the system should be simulated across all conceivable performance parameters and the resulting data scrutinised for appropriate reaction and nominal control of engine function.
+
+This highlights a difficulty of gathering comprehensive test in this fashion: correctly enumerating all possible expectable conditions and states.
+Plotting the state space of conditions the aircraft may face is a highly involved task and must be informed by flight data from previous platforms and endeavours, in addition to periphery data such as atmospheric measurements taken at all times of year the aircraft is intended to fly.
+Possible states of the engine hardware must also be known in advance, which must draw from design information of the engines and their own physical testing.
+Once a comprehensive model of possible conditions is assembled, a simulation plan must be constructed which samples the space enough to give reasonable guarantees while remaining feasible to completely run. 
+
+Formal proof of software function is complicated to derive, and depends upon the chosen software architecture and its available modelling methods.
+It is assumed that an appropriate toolchain such as ADA SPARK~\cite{SPARK2014}, is used for this purpose and the relevant methods applied.
+Independent code review should be performed by a mixed team of experts who are not otherwise involved with development of the platform.
+Software Bill of Materials and design documentation is assumed to be produced during the development process itself.
+
+\subsubsection*{Hardware}
+
+To collect simulation data on the Mean-time-between-failures of engine hardware, final engines should be assembled and affixed to test rigs in controlled environments.
+All conceivable and representable conditions should be simulated to the best of the ability of the rig and environment, and detailed data gathered on the engine's reaction to it; such data may include fuel consumption, spool RPM, thrust and deviations from expected responses.
+Once more, the same issue of simulating all real-world conditions arises, and is further constrained by the limits of laboratory conditions.
+
+At a later stage of development, the aircraft should be assembled and test flights conducted with similar data gathering methods in ``real'' conditions.
+
+\subsubsection*{Communications System}
+
+% - ethernet testing
+%   - set up test rig, both in lab and on final aircraft
+%   - test full operation, with simulated returns from ECS etc.
+%   - vary conditions (eg. induce failure in components, add RF noise characteristic of smartphones, electrical storms, radar etc)
+%   - measure both integrity and timing data
+
+To test the custom softare implementing INT-FD, the same methods as with the ECS sofware should be used, but performed on the ethernet interfaces, with simulated failures in transmission on the primary ethernet system.
+
+Integration testing should be performed in both lab conditions and on the final network as laid out in the airframe.
+Full simulated conditions should be run in a similar method on these setups to the above described approaches with ECS software, but with special focus on timing guarantees and data transfer integrity.
+Additional conditions that must be simulated for:\begin{itemize}
+    \item Induced failure in components to force ALL-RED to cover faults in the primary system under conditions of complete or partial primary failure
+    \item High-intensity RF background noise, of multiple profiles which effectively simulate modern handheld device emissions, atmospheric electrical storms, high-intensity ground-based radar, solar flares and other infrequent but feasible EM conditions.
+    ``Realistic'' simulation of this is likely to present a challenge, as such interference may affect data gathering systems in the setup and requires highly specialist equipment for configurable transmission.
+\end{itemize}
+
+Network architectures should be formalised so that accurate models can be derived for responsiveness and network suitability can be proven.
