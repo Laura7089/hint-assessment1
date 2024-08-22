@@ -1,11 +1,299 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
   <diagram name="Page-1" id="Teuea3w9e-A_EmUF1PCC">
-    <mxGraphModel dx="468" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1338" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9apNq--I6Vj7E2jDrAX7-1" value="Engine will always run nominally" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="_D072OxW0X4RlkUgUxhX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9apNq--I6Vj7E2jDrAX7-1" target="_D072OxW0X4RlkUgUxhX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9apNq--I6Vj7E2jDrAX7-1" target="_D072OxW0X4RlkUgUxhX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9apNq--I6Vj7E2jDrAX7-1" target="_D072OxW0X4RlkUgUxhX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9apNq--I6Vj7E2jDrAX7-1" value="Unexpected engine shutdown is mitigated" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="376.66999999999996" y="180" width="133.33" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="70" y="390" width="186.67" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-4" value="All Ethernet components are compliant with IEEE 802.1AS, 802.1Qbv, 802.1Q and other relevant TSN standards" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_D072OxW0X4RlkUgUxhX-3">
+          <mxGeometry x="-30" width="190" height="106.67" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-5" value="A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="_D072OxW0X4RlkUgUxhX-3">
+          <mxGeometry x="120.00214285714284" y="80" width="80.00142857142856" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-6" target="_D072OxW0X4RlkUgUxhX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-6" value="Catastrophic Mechanical Failure mitigated" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-8" target="_D072OxW0X4RlkUgUxhX-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-8" target="_D072OxW0X4RlkUgUxhX-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-8" value="ECS software failure mitigated" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="376.67" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-10" target="_D072OxW0X4RlkUgUxhX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-10" target="_D072OxW0X4RlkUgUxhX-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="720" />
+              <mxPoint x="130" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-10" target="_D072OxW0X4RlkUgUxhX-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="720" />
+              <mxPoint x="690" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-10" target="_D072OxW0X4RlkUgUxhX-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="720" />
+              <mxPoint x="397" y="720" />
+              <mxPoint x="397" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-10" value="Communications faults mitigated" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-13" target="_D072OxW0X4RlkUgUxhX-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-13" target="_D072OxW0X4RlkUgUxhX-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="688" y="460" />
+              <mxPoint x="785" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-13" target="_D072OxW0X4RlkUgUxhX-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-13" value="Engine internals have acceptable probabilities of critical faults" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="380" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-17" value="Testing data showing MTbF of engine internals under &lt;i&gt;typical&lt;/i&gt; conditions" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="470" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-19" target="_D072OxW0X4RlkUgUxhX-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-19" target="_D072OxW0X4RlkUgUxhX-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-19" value="ECS software developed with appropriate methodology" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-20" target="_D072OxW0X4RlkUgUxhX-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-20" target="_D072OxW0X4RlkUgUxhX-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="580" />
+              <mxPoint x="340" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-20" target="_D072OxW0X4RlkUgUxhX-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="440" />
+              <mxPoint x="390" y="590" />
+              <mxPoint x="426" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-20" value="ECS software cannot produce erroneous output under any possible operating condition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-21" value="Testing data showing MTbF of engine internals under &lt;i&gt;conceivable&lt;/i&gt; conditions" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="730" y="470" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-24" value="Acceptable fault probabilities/rates defined by ESEA&amp;nbsp;Regulation (EU) 2018/1139 and others" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="770" y="310" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-26" value="Software Bill of Materials" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="509.99999999999994" y="485" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-28" value="Development log and design documents" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="485" width="96.67" height="96.67" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-32" value="Formal proof" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="296.67" y="493.33" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-35" value="Multiple independent code review" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-37" value="High-accuracy simulation over real-world state space" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="410" y="595" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-39" target="_D072OxW0X4RlkUgUxhX-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-39" target="_D072OxW0X4RlkUgUxhX-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-39" value="ALL-RED backup system compensates for faults in primary system(s)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="740" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-41" target="_D072OxW0X4RlkUgUxhX-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-41" target="_D072OxW0X4RlkUgUxhX-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-41" value="Frames from Command System to ECS delivered in appropriate time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-42" target="_D072OxW0X4RlkUgUxhX-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-42" target="_D072OxW0X4RlkUgUxhX-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="930" />
+              <mxPoint x="940" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-42" value="Configured latency bounds allow corrective commands to be enacted in time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="855" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-46" target="_D072OxW0X4RlkUgUxhX-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="930" />
+              <mxPoint x="690" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-46" target="_D072OxW0X4RlkUgUxhX-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="930" />
+              <mxPoint x="560" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-46" value="Frames delivered in deterministic time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="855" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-48" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="630" y="980" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-49" value="Ethernet network is TSN-compatible" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_D072OxW0X4RlkUgUxhX-48">
+          <mxGeometry width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-50" value="J" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="_D072OxW0X4RlkUgUxhX-48">
+          <mxGeometry x="90" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-52" value="Mathematical proof, eg. Network Calculus" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="760" y="950" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-54" target="_D072OxW0X4RlkUgUxhX-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-54" value="INT-FD detects faults in primary system" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-56" target="_D072OxW0X4RlkUgUxhX-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-56" target="_D072OxW0X4RlkUgUxhX-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-56" value="ALL-RED able to fill role of primary system" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="59.999999999999986" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-58" value="Proof of required engine internals response time" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="890" y="950" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-60" target="_D072OxW0X4RlkUgUxhX-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="427" y="920" />
+              <mxPoint x="490" y="920" />
+              <mxPoint x="490" y="1050" />
+              <mxPoint x="480" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-60" target="_D072OxW0X4RlkUgUxhX-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-60" value="Frames are not malformed or corrupted in transit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="336.67" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-62" target="_D072OxW0X4RlkUgUxhX-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-62" value="Temporal resources statically allocated for CS-ECS VLAN (A)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-64" value="Network+VLAN schema" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1030" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-66" target="_D072OxW0X4RlkUgUxhX-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-66" target="_D072OxW0X4RlkUgUxhX-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-66" value="RF interference mitigated" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="296.67" y="840" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-67" value="Software proofs, see ECS software section" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="980" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-68" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="130" y="990" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-69" value="ALL-RED is topologically identical to primary system" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_D072OxW0X4RlkUgUxhX-68">
+          <mxGeometry y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-70" value="J" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="_D072OxW0X4RlkUgUxhX-68">
+          <mxGeometry x="90" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-72" value="Integration tests with simulated failures" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_D072OxW0X4RlkUgUxhX-74" target="_D072OxW0X4RlkUgUxhX-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-74" value="Ethernet equipment does not mangle data in buffers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-78" value="RF shielding testing data" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="249.99999999999997" y="940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-81" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="336.67" y="940" width="155" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-82" value="Aircraft will not experience extraordinary sustained RF transmission" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_D072OxW0X4RlkUgUxhX-81">
+          <mxGeometry width="132.85714285714286" height="88.88888888888889" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-83" value="A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="_D072OxW0X4RlkUgUxhX-81">
+          <mxGeometry x="99.64285714285715" y="66.66666666666667" width="66.42857142857143" height="33.333333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="_D072OxW0X4RlkUgUxhX-86" value="End-to-end packet loss/corruption rate testing on final hardware" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="398.34000000000003" y="1150" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
